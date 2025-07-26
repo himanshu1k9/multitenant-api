@@ -17,10 +17,10 @@ This project is a minimal backend built using Laravel to manage a multi-tenant S
 
 ## Technology Stack
 
-- Laravel (v10 or above)
+- Laravel (v12 or above)
 - Sanctum for API authentication
 - MySQL (or any supported database)
-- PHP 8.1 or higher
+- PHP 8.3 or higher
 
 ---
 
