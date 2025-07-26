@@ -154,6 +154,3 @@ Authorization Header
 For all protected routes, include the token:
 
 Authorization: Bearer YOUR_ACCESS_TOKEN
-
-
-
