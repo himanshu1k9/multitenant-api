@@ -24,8 +24,7 @@ Route::middleware('auth:sanctum')->group(function () {
 });
 
 
-Route::middleware('myAuth')->group(function() {
-    Route::post('/register', [RegisteredUserController::class, 'store'])
+Route::post('/register', [RegisteredUserController::class, 'store'])
     ->middleware('guest')
     ->name('register');
 
@@ -52,5 +51,3 @@ Route::post('/email/verification-notification', [EmailVerificationNotificationCo
 Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
     ->middleware('auth')
     ->name('logout');
-
-});
